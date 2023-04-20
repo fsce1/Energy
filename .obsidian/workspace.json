@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "bf8bb30d86076fa7",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a93c7e6d35c6e19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0741a7f74fc3586",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Games/Cities Skylines.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "424558b0041f0a82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AC2 Problem Solving.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5dc84e20e4b6944a",
+    "type": "split",
+    "children": [
+      {
+        "id": "385272da7fa8a1e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7bb39ab3534b2be",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "12b11d142f12b8a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "666968956b3ecbe7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "51e8ca86a810f381",
+    "type": "split",
+    "children": [
+      {
+        "id": "0aede5f05a9783d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed6160afc1837a09",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Games/Cities Skylines.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1ed4061b46987ea7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Games/Cities Skylines.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "480c6763bc59565c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9724bde9df48fd55",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Games/Cities Skylines.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c0741a7f74fc3586",
+  "lastOpenFiles": [
+    "AC2 Problem Solving.md",
+    "AC1 Informing Ideas.md",
+    "Games/Cities Skylines.md",
+    "Games/Green with Energy.md",
+    "Games",
+    "Games/Factorio.md",
+    "Games/Terra Nil.md"
+  ]
+}
