@@ -12,7 +12,7 @@
 
 
 # Game Research
-- [[Factorio]]
-- [[Cities Skylines]]
-- [[Terra Nil]]
-- [[Green with Energy]]
+- ![[Factorio]]
+- ![[Cities Skylines]]
+- ![[Terra Nil]]
+- ![[Green with Energy]]
