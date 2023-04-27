@@ -1,3 +1,2 @@
-Cities: Skylines is a sandbox game about building your own city, similar to SimCity and Tropico.
-However, it also makes you manage infrastructure such as energy, waste disposal and water pipes.
-Citizens will become unhappy if they are placed too close to an industrial zone, or if they have no access to basic services. There is also a negative penalty for using fossil fuel power stations instead of green solutions.
+Cities: Skylines is a sandbox game about building your own city, similar to SimCity and Tropico. However, it also makes you manage infrastructure such as energy, waste disposal and water pipes.
+Citizens will become unhappy if they are placed too close to an industrial zone, or if they have no access to basic services. There is also a negative penalty for using fossil fuel power stations instead of green solutions. Waste that is dumped into the water will pollute it, and make citizens unhappy. All of this combines to make a game where clean, green energy is extremely important and it teaches players about many negative aspects of fossil fuels and unsustainable energy management.

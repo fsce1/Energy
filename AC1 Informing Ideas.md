@@ -7,7 +7,7 @@
 ## What has E.ON been doing to help?
 - https://www.eonenergy.com/sustainable-businesses.html
 - https://www.eon.com/en/business-customers/success-stories/marks-spencer.html
-- They have started using their Building energy Management Systems (BeMS) and Heating Ventilation & Air Conditioning (HVAC) systems. This reduced their energy by 34%.
+- They have started using their Building energy Management Systems (BeMS) and Heating Ventilation & Air Conditioning (HVAC) systems. This reduced M&S' energy consumption by 34%.
 
 
 

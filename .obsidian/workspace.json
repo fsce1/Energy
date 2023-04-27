@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c0741a7f74fc3586",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Games/Green with Energy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e17d07973c11a5bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project 2 Jamie Serlin Document.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "424558b0041f0a82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AC2 Problem Solving.md",
+                "file": "AC1 Informing Ideas.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project 2 Jamie Serlin Document.md",
+                "file": "AC1 Informing Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project 2 Jamie Serlin Document.md",
+                "file": "AC1 Informing Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project 2 Jamie Serlin Document.md"
+                "file": "AC1 Informing Ideas.md"
               }
             }
           }
@@ -173,13 +148,13 @@
   },
   "active": "e17d07973c11a5bc",
   "lastOpenFiles": [
-    "AC1 Informing Ideas.md",
-    "Project 2 Jamie Serlin Document.md",
-    "AC2 Problem Solving.md",
+    "Games/Cities Skylines.md",
+    "Games/Factorio.md",
     "Games/Green with Energy.md",
     "Games/Terra Nil.md",
-    "Games/Factorio.md",
-    "Games/Cities Skylines.md",
+    "AC1 Informing Ideas.md",
+    "AC2 Problem Solving.md",
+    "Project 2 Jamie Serlin Document.md",
     "Games"
   ]
 }

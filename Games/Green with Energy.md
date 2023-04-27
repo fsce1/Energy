@@ -1,4 +1,4 @@
-Green with Energy is a puzzle game in which you need to supply houses with energy using green solutions such as wind turbines and solar panels.
-You need to think about different voltages, and the day-night cycle of energy.
-For example, solar panels arent enough to power a house alone, as during the night they dont give off any power.
+Green with Energy is a puzzle game in which you need to supply houses with energy using green solutions such as wind turbines and solar panels. You need to think about different voltages, and the day-night cycle of energy.
+For example, solar panels arent enough to power a house alone, as during the night they dont give off any power. To fix this, you would need to add a battery plant that can store power and give it off when needed. You also need to transform high-voltage into low-voltage before connecting power to a house.
 It also rewards efficiency in your plans as you have a budget and everything you place costs money.
+The full game isn't out yet, however it's promising and could be a fun puzzle game. I did notice a few bugs / unfinished features which is normal for a pre-release demo.
