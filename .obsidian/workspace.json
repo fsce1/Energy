@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e17d07973c11a5bc",
+            "id": "1af7338c06929815",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AC1 Informing Ideas.md",
+                "file": "Project 2 Jamie Serlin Document.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300.5
   },
   "right": {
     "id": "51e8ca86a810f381",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AC1 Informing Ideas.md",
+                "file": "Project 2 Jamie Serlin Document.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AC1 Informing Ideas.md",
+                "file": "Project 2 Jamie Serlin Document.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AC1 Informing Ideas.md"
+                "file": "Project 2 Jamie Serlin Document.md"
               }
             }
           }
@@ -146,15 +146,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e17d07973c11a5bc",
+  "active": "1af7338c06929815",
   "lastOpenFiles": [
-    "Games/Cities Skylines.md",
-    "Games/Factorio.md",
-    "Games/Green with Energy.md",
-    "Games/Terra Nil.md",
-    "AC1 Informing Ideas.md",
+    "My project (1)/Logs",
+    "My project (1)/Temp/UnityLockfile",
+    "My project (1)/Temp",
+    "My project (1)",
+    "My project/Logs",
+    "My project/Temp/UnityLockfile",
+    "My project/Temp",
+    "My project",
+    "Energy/Logs",
+    "Energy/Temp/UnityLockfile",
+    "Energy/Temp",
+    "My project/Assets/UI/KeyboardControls.png",
+    "My project/Assets/Tutorials/Assets/Welcome/Image-1-2.png",
+    "My project/Assets/Tutorials/Assets/Welcome/Image-1-1.png",
+    "My project/Assets/Tutorials/Assets/TheVehicleSample/Image-2-1.png",
+    "My project/Assets/Tutorials/Assets/TheVehicleSample/Image-2-0.png",
+    "My project/Assets/Tutorials/Assets/Splash/Welcome.png",
+    "My project/Assets/Tutorials/Assets/Splash/KeyboardControls.png",
+    "My project/Assets/Tutorials/Assets/Splash/IconWScatteringTools.png",
+    "My project/Assets/Tutorials/Assets/Splash/IconWCurveTools.png",
+    "My project/Assets/Tutorials/Assets/Splash/IconWCreatingProceduralRoadMesh.png",
+    "My project/Temp/UnityTempFile-14c3f244d48f2e0478de23b3c2f7d888/package/Third Party Notices.md",
+    "My project/Temp/UnityTempFile-14c3f244d48f2e0478de23b3c2f7d888/package/Documentation~/TableOfContents.md",
+    "My project/Temp/UnityTempFile-14c3f244d48f2e0478de23b3c2f7d888/package/Documentation~/ScatteringTool.md",
+    "My project/Temp/UnityTempFile-14c3f244d48f2e0478de23b3c2f7d888/package/Documentation~/RoadTool.md",
     "AC2 Problem Solving.md",
+    "Game Design Document.md",
+    "AC1 Informing Ideas.md",
+    "Games/Terra Nil.md",
     "Project 2 Jamie Serlin Document.md",
-    "Games"
+    "Games/Green with Energy.md",
+    "Games/Factorio.md",
+    "Games/Cities Skylines.md"
   ]
 }
