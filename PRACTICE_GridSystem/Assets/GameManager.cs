@@ -12,10 +12,22 @@ public class GameManager : MonoBehaviour
         else GM = this;
     }
     #endregion
+    public enum OverlayType
+    {
+        Wind,
+        Daylight,
+        BuildCost
+    }
+
+    [Header("Settings")]
+    public OverlayType curOverlay;
+    [Header("Variables")]
+    public Color startCol;
+    public Color endCol;
     public List<Cell> cellList = new();
     private void Start()
     {
         
-        GridInitialiser grid = new(10, 10);
+        GridInitialiser grid = new(20, 20, new GameObject().transform, new GameObject().transform);
     }
 }

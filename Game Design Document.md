@@ -5,7 +5,10 @@ You begin with a 16x16 grid, with different wind speeds, daylight hours, and geo
 You have a base energy demand that you must meet, and any additional energy created can be exported for money.
 Money allows you to increase the map size, as well as increase the power that any specific structure can output.
 # Structures
+Since the game needs to be endless,
 Wind Farm: base 100 energy/tick, 
+# Map
+I have decided that random generation will be a good fit for this game. This is because it increases replay value as the map is different each time, as well as adding a random element that spices the game up. The world will be made up of tiles in a grid system, each with their own wind speeds and daylight hours, as well as building cost. You will be able to toggle different information overlays through the UI.
 # Camera
 3D Isometric view
 # Visual Style

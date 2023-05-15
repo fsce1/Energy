@@ -7,11 +7,13 @@ public class GridInitialiser
 {
     private int[,] gridArray;
 
-
-    public GridInitialiser(int width, int height)
+    public Transform LineRendererObject;
+    public Transform CellObject;
+    public GridInitialiser(int width, int height, Transform LineRendererObject, Transform CellObject)
     {
         gridArray = new int[width, height];
-
+        this.LineRendererObject = LineRendererObject;
+        this.CellObject = CellObject;
         AddLineRenderers(gridArray);
 
         //Cycle through a multi-dimensional array, counting up
@@ -20,8 +22,13 @@ public class GridInitialiser
 
             for (int y = 0; y < gridArray.GetLength(1); y++)
             {
+
+                
+
+                // Instantiation
                 GameObject obj = new();
                 obj.transform.position = new(x, 0, y);
+                obj.transform.parent = CellObject;
                 obj.name = x + ", " + y;
                 obj.tag = "Interact";
 
@@ -32,16 +39,45 @@ public class GridInitialiser
                 Cell c = obj.AddComponent<Cell>();
                 c.pos = new(x, y);
 
-                GameManager.GM.cellList.Add(c);
+                // Noise
+                // generally returns a value approximately in the range [-1.0, 1.0]
+                float xNoise = (float)x / gridArray.GetLength(0);
+                float yNoise = (float)y / gridArray.GetLength(1);
+                float n = Mathf.PerlinNoise(xNoise, yNoise);
+                c.buildCost = n;
 
+                c.text = AddCellVis(c);
+                c.ChangeCellText(n.ToString().Substring(0,3));
+                GameManager.GM.cellList.Add(c);
             }
         }
         
+    }
+    public TextMesh AddCellVis(Cell cell)
+    {
+        GameObject obj = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        Vector3 v3 = GridTools.Vector2IntToVector3(cell.pos, true);
+        obj.transform.position = new(v3.x, -0.5f, v3.z);
+        obj.transform.parent = cell.transform;
+
+        GameObject obj2 = new();
+        obj2.transform.position = GridTools.Vector2IntToVector3(cell.pos, true);
+        obj2.transform.eulerAngles = new(90,0,0);
+        obj2.transform.parent = cell.transform;
+
+        TextMesh text = obj2.AddComponent<TextMesh>();
+        text.anchor = TextAnchor.MiddleCenter;
+        text.fontSize = 50;
+        text.characterSize = 0.1f;
+
+        return text;
+
     }
     #region LINE RENDERER
     public LineRenderer AddLineRenderer(Vector3[] positions)
     {
         GameObject g = new();
+        g.transform.parent = LineRendererObject;
         g.name = "LineRenderer" + positions[0].x + ", " + positions[0].z;
         LineRenderer l = g.AddComponent<LineRenderer>();
         l.startWidth = 0.05f;

@@ -9,9 +9,14 @@ public static class GridTools
     {
         return Vector2Int.FloorToInt(new Vector2(input.x, input.z));
     }
-    public static Vector3 Vector2IntToVector3(Vector2Int input)
+    public static Vector3 Vector2IntToVector3(Vector2Int input, bool isCentered)
     {
+        if (isCentered)
+        {
+            return new Vector3(input.x + 0.5f, 0, input.y + 0.5f);
+        }
         return new Vector3(input.x, 0, input.y);
+
     }
     public static Cell GetCell(Vector2Int pos)
     {

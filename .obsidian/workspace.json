@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled Kanban.md",
+                "file": "Game Design Document.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled Kanban.md",
+                "file": "Game Design Document.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled Kanban.md",
+                "file": "Game Design Document.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled Kanban.md"
+                "file": "Game Design Document.md"
               }
             }
           }
@@ -156,22 +156,24 @@
   },
   "active": "db945ebb9336c6cd",
   "lastOpenFiles": [
-    "Game Design Document.md",
-    "AC1 Informing Ideas.md",
-    "Untitled Kanban.md",
     "Technical Skill.md",
+    "PRACTICE_GridSystem/Logs/shadercompiler-UnityShaderCompiler.exe8.log",
+    "PRACTICE_GridSystem/Temp/UnityTempFile-8ea24c4e532fa684fad0f197f75d064a",
+    "PRACTICE_GridSystem/Temp/UnityTempFile-82bea3442decedb4a96d4b9a81cf63f4",
+    "PRACTICE_GridSystem/Library/Bee/backend_profiler0.traceevents",
+    "PRACTICE_GridSystem/Library/Bee/TundraBuildState.state",
+    "PRACTICE_GridSystem/Library/Artifacts/24/24eb33e625c4def93bf454faa09e31e2",
+    "Pasted image 20230515120301.png",
+    "PRACTICE_GridSystem/Temp/UnityTempFile-13e0214e6130b0d459db8a72c6515128",
+    "PRACTICE_GridSystem/Temp/UnityTempFile-d2cb1a94410231d49a0a2b3795ace913",
+    "PRACTICE_GridSystem/Library/Artifacts/f8/f811f7ee98820de8f50e9063942141dc",
+    "PRACTICE_GridSystem/Temp/UnityTempFile-c18da4ab9c8fd534494ed0bdc68ae4d9",
     "Project 2 Jamie Serlin Document.md",
+    "Images/Pasted image 20230515101543.png",
+    "Untitled Kanban.md",
+    "Game Design Document.md",
     "AC2 Problem Solving.md",
-    "PRACTICE_GridSystem/Library/expandedItems",
-    "PRACTICE_GridSystem/Temp/UnityTempFile-cd33fb3cc202e6c4b885240753c6d331",
-    "PRACTICE_GridSystem/Library/Artifacts/8c/8c7b13b458628f5ea377b93fe754f5b7",
-    "PRACTICE_GridSystem/Assets/cw1t2xua.4kq~",
-    "PRACTICE_GridSystem/Assets/oyppx3tj.jdb~",
-    "PRACTICE_GridSystem/Assets/ychutlp3.1b5~",
-    "PRACTICE_GridSystem/Temp/UnityTempFile-fc04220ea002eaf44b7f4240a8d11438",
-    "PRACTICE_GridSystem/Assets/4nmaeems.4ui~",
-    "PRACTICE_GridSystem/Library/Artifacts/cd/cdc087bb8dff7a2991d1a3c208661a07",
-    "PRACTICE_GridSystem/Assets/vlp1cpga.3b4~",
+    "AC1 Informing Ideas.md",
     "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Shared/EditorAssetResources/SplitButtonArrow.png",
     "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/VariablesSaver@32x.png",
     "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/VariablesAsset@32.png",
@@ -180,8 +182,6 @@
     "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/StateMachine@32x.png",
     "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/State@32x.png",
     "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/SceneVariables.png",
-    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/GlobalMessageListener@32x.png",
-    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/FlowMachine@32x.png",
     "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/input-system/nodes-note-package.md",
     "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/input-system/nodes-input-system-ports.md",
     "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/input-system/nodes-input-system-output-trigger-port.md",
@@ -200,7 +200,6 @@
     "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-return-unity.md",
     "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-regen-node-library.md",
     "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-open-state-menu.md",
-    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-open-project-window.md",
-    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-open-project-settings.md"
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-open-project-window.md"
   ]
 }
