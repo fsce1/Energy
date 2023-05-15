@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1a93c7e6d35c6e19",
+        "id": "dbe5e458b66cf887",
         "type": "tabs",
         "children": [
           {
-            "id": "1af7338c06929815",
+            "id": "db945ebb9336c6cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project 2 Jamie Serlin Document.md",
+                "file": "Untitled Kanban.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "c7dc4e119ed5c46d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project 2 Jamie Serlin Document.md",
+                "file": "Untitled Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project 2 Jamie Serlin Document.md",
+                "file": "Untitled Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project 2 Jamie Serlin Document.md"
+                "file": "Untitled Kanban.md"
               }
             }
           }
@@ -146,40 +154,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1af7338c06929815",
+  "active": "db945ebb9336c6cd",
   "lastOpenFiles": [
-    "My project (1)/Logs",
-    "My project (1)/Temp/UnityLockfile",
-    "My project (1)/Temp",
-    "My project (1)",
-    "My project/Logs",
-    "My project/Temp/UnityLockfile",
-    "My project/Temp",
-    "My project",
-    "Energy/Logs",
-    "Energy/Temp/UnityLockfile",
-    "Energy/Temp",
-    "My project/Assets/UI/KeyboardControls.png",
-    "My project/Assets/Tutorials/Assets/Welcome/Image-1-2.png",
-    "My project/Assets/Tutorials/Assets/Welcome/Image-1-1.png",
-    "My project/Assets/Tutorials/Assets/TheVehicleSample/Image-2-1.png",
-    "My project/Assets/Tutorials/Assets/TheVehicleSample/Image-2-0.png",
-    "My project/Assets/Tutorials/Assets/Splash/Welcome.png",
-    "My project/Assets/Tutorials/Assets/Splash/KeyboardControls.png",
-    "My project/Assets/Tutorials/Assets/Splash/IconWScatteringTools.png",
-    "My project/Assets/Tutorials/Assets/Splash/IconWCurveTools.png",
-    "My project/Assets/Tutorials/Assets/Splash/IconWCreatingProceduralRoadMesh.png",
-    "My project/Temp/UnityTempFile-14c3f244d48f2e0478de23b3c2f7d888/package/Third Party Notices.md",
-    "My project/Temp/UnityTempFile-14c3f244d48f2e0478de23b3c2f7d888/package/Documentation~/TableOfContents.md",
-    "My project/Temp/UnityTempFile-14c3f244d48f2e0478de23b3c2f7d888/package/Documentation~/ScatteringTool.md",
-    "My project/Temp/UnityTempFile-14c3f244d48f2e0478de23b3c2f7d888/package/Documentation~/RoadTool.md",
-    "AC2 Problem Solving.md",
     "Game Design Document.md",
     "AC1 Informing Ideas.md",
-    "Games/Terra Nil.md",
+    "Untitled Kanban.md",
+    "Technical Skill.md",
     "Project 2 Jamie Serlin Document.md",
-    "Games/Green with Energy.md",
-    "Games/Factorio.md",
-    "Games/Cities Skylines.md"
+    "AC2 Problem Solving.md",
+    "PRACTICE_GridSystem/Library/expandedItems",
+    "PRACTICE_GridSystem/Temp/UnityTempFile-cd33fb3cc202e6c4b885240753c6d331",
+    "PRACTICE_GridSystem/Library/Artifacts/8c/8c7b13b458628f5ea377b93fe754f5b7",
+    "PRACTICE_GridSystem/Assets/cw1t2xua.4kq~",
+    "PRACTICE_GridSystem/Assets/oyppx3tj.jdb~",
+    "PRACTICE_GridSystem/Assets/ychutlp3.1b5~",
+    "PRACTICE_GridSystem/Temp/UnityTempFile-fc04220ea002eaf44b7f4240a8d11438",
+    "PRACTICE_GridSystem/Assets/4nmaeems.4ui~",
+    "PRACTICE_GridSystem/Library/Artifacts/cd/cdc087bb8dff7a2991d1a3c208661a07",
+    "PRACTICE_GridSystem/Assets/vlp1cpga.3b4~",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Shared/EditorAssetResources/SplitButtonArrow.png",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/VariablesSaver@32x.png",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/VariablesAsset@32.png",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/Variables@32x.png",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/UnityMessageListener@32x.png",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/StateMachine@32x.png",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/State@32x.png",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/SceneVariables.png",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/GlobalMessageListener@32x.png",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap/FlowMachine@32x.png",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/input-system/nodes-note-package.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/input-system/nodes-input-system-ports.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/input-system/nodes-input-system-output-trigger-port.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/input-system/nodes-input-action-change.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/input-manager/nodes-input-output-trigger.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/input-manager/nodes-note-manual.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/input-manager/nodes-desc-end.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/custom-events/vs-tasks-note-end.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/custom-events/vs-right-click-project.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/custom-c-nodes/vs-tasks-note-end.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/custom-c-nodes/vs-ff-add-node.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/custom-c-nodes/vs-open-graph-w-node.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-with-graph-open-ff.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-visual-scripting-window.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-save-script.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-return-unity.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-regen-node-library.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-open-state-menu.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-open-project-window.md",
+    "PRACTICE_GridSystem/Library/PackageCache/com.unity.visualscripting@1.7.8/Documentation~/snippets/vs-open-project-settings.md"
   ]
 }
