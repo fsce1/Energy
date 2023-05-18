@@ -8,3 +8,4 @@ The generation of the map was also quite difficult. I opted to use a generation 
 ![[Pasted image 20230515101543.png]]
 https://docs.unity3d.com/ScriptReference/Mathf.PerlinNoise.html
 ![[Pasted image 20230515120301.png]]
+I also added multiple layers of perlin noise. This was so that the Wind stat, the Daylight stat, and the Cost stat are all different 

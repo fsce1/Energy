@@ -18,16 +18,40 @@ public class GameManager : MonoBehaviour
         Daylight,
         BuildCost
     }
+    public enum StructureType
+    {
+        WindTurbine,
+        SolarPanel
+    }
 
     [Header("Settings")]
     public OverlayType curOverlay;
     [Header("Variables")]
-    public Color startCol;
-    public Color endCol;
     public List<Cell> cellList = new();
+    public void ShowWind()
+    {
+        foreach (Cell c in cellList)
+        {
+            c.ChangeInfoOverlay(c.wind);
+        }
+    }
+    public void ShowCost()
+    {
+        foreach (Cell c in cellList)
+        {
+            c.ChangeInfoOverlay(c.buildCost);
+        }
+    }
+    public void ShowDaylight()
+    {
+        foreach (Cell c in cellList)
+        {
+            c.ChangeInfoOverlay(c.daylight);
+        }
+    }
     private void Start()
     {
         
-        GridInitialiser grid = new(20, 20, new GameObject().transform, new GameObject().transform);
+        GridInitialiser grid = new(10, 10, new GameObject().transform, new GameObject().transform);
     }
 }

@@ -5,7 +5,8 @@ using UnityEngine;
 public class Cell : MonoBehaviour
 {
     public Vector2Int pos;
-    public TextMesh text;
+    public TextMesh info;
+    public MeshRenderer cube;
     //note transform.position works as well, as the gameobjects are positioned on their grid squares
 
     public float wind;
@@ -16,18 +17,22 @@ public class Cell : MonoBehaviour
 
 
 
-    public GameObject structure;
-    public GameObject wire;
+    public Structure structure;
 
 
-    public void ChangeCellText(string text)
+    public void ChangeInfoOverlay(float info)
     {
-        this.text.text = text;
-        this.text.color = Color.Lerp(GameManager.GM.startCol, GameManager.GM.endCol, float.Parse(text));
-        this.text.fontStyle = FontStyle.Bold;
+
+        this.info.text = info.ToString().Substring(0, 3);
+        this.info.color = Color.white;
+        this.info.fontStyle = FontStyle.Bold;
+
+        Color32 start = new(0, 255, 0, 255);
+        Color32 end = new(255, 0, 0, 255);
+        cube.material.color = Color.Lerp(start, end, info);
     }
     void Start()
     {
-        
+
     }
 }

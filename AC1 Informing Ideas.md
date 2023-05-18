@@ -1,7 +1,7 @@
 # Response to Brief
 The Brief has asked me for a digital animation, game or experience that promotes energy conservation and the awareness of energy consumption. It is for all/any ages, and must be completed in a game engine such as Unity or Unreal.
 While I have experience in both Unity and Unreal, I will be using Unity 3D for this project, as I personally prefer C#, as opposed to Unreal's Blueprint system or C++. It also provides a lot more tools for lo-poly models as it has a lot more downloadable packs on the Unity Asset Store.
-My initial idea was a tycoon/builder game which encourages learning statistics and facts about green energy solutions such as wind turbines, and needs strategic thinking to place energy sources in the correct position.
+My initial idea was a tycoon/builder game which encourages learning statistics and facts about green energy solutions such as wind turbines, and needs strategic thinking to place energy sources in the correct position. This will allow my game to satisfy older demographics, as it requires strategic thinking and tactics.
 # E.ON Research
 ## Facts about climate change
 - https://climate-change.data.gov.uk/
