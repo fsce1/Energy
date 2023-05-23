@@ -5,8 +5,10 @@ You begin with a 16x16 grid, with different wind speeds, daylight hours, and geo
 You have a base energy demand that you must meet, and any additional energy created can be exported for money.
 Money allows you to increase the map size, in order to find new tiles to build on.
 # Structures
-Since the game needs to be endless, energy accumulates over time depending on how many structures you have built. Therefore, the game is not able to be lost, as you will always have some kind of energy generation. However the game is a closed loop, as once you have dicovered the entire map 
-Energy generators (Wind Turbines, Solar Panels) are 100 energy a tick, multiplied by the Wind stat of the current tile it's on.
+Since the game needs to be endless, energy accumulates over time depending on how many structures you have built. Therefore, the game is not able to be lost, as you will always have some kind of energy generation. However the speed of expansion is based on how well you place your tiles and how optimally you have structured your energy plant.
+## Examples
+Wind Turbines - 200 MWh * Tile's Wind Speed
+Solar Panels - 100MWh * Tiles's Daylight Hours
 # Map
 I have decided that random generation will be a good fit for this game. This is because it increases replay value as the map is different each time, as well as adding a random element that spices the game up. The world will be made up of tiles in a grid system, each with their own wind speeds and daylight hours, as well as building cost. You will be able to toggle different information overlays through the UI. These stats will influence the amount of power that any structure on that tile will output.
 # Camera
