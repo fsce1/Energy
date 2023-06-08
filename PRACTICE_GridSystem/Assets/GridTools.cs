@@ -20,6 +20,6 @@ public static class GridTools
     }
     public static Cell GetCell(Vector2Int pos)
     {
-        return GameManager.GM.cellList.Select(thing => thing).Where(cell => cell.pos.x == pos.x && cell.pos.y == pos.y).First();
+        return GameManager.GM.cellList.Select(thing => thing).Where(cell => cell.pos.x == pos.x && cell.pos.y == pos.y).FirstOrDefault();
     }
 }

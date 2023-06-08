@@ -5,15 +5,15 @@ using UnityEngine;
 public class Structure : MonoBehaviour
 {
     public Mesh mesh;
+    public Cell cell;
 
     void Start()
     {
         
     }
-
-    // Update is called once per frame
-    void Update()
+    // FixedUpdate is Structure state updates, normal Update is structure-specific things
+    void FixedUpdate()
     {
-        
+
     }
 }

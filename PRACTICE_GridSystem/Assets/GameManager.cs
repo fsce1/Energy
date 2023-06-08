@@ -51,7 +51,6 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-
-        GridInitialiser grid = new(10, 10, new GameObject().transform, new GameObject().transform);
+        GridInitialiser grid = new(15, 15, new GameObject().transform, new GameObject().transform);
     }
 }

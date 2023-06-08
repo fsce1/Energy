@@ -16,17 +16,20 @@ public class Cursor : MonoBehaviour
     public Cell selectedCell;
     public Structure heldStructure;
     public MeshFilter heldVisual;
+    public bool isOnUI = false;
     public void Update()
     {
         Ray ray;
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
         if (Physics.Raycast(ray, out RaycastHit hit) && hit.collider.CompareTag("Interact"))
         {
+            isOnUI = hit.collider.CompareTag("UI"); // TODO
             Vector2Int pos = GridTools.Vector3ToVector2Int(hit.collider.gameObject.transform.position);
             selectedCell = GridTools.GetCell(pos);
             transform.position = new(pos.x, 0.1f, pos.y);
         }
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !isOnUI)
         {
             PlaceItem();
         }
@@ -39,8 +42,18 @@ public class Cursor : MonoBehaviour
     public void PlaceItem()
     {
         if (heldStructure == null) return;
-        if (selectedCell.structure != null) return;
+        if (selectedCell.structure != null)
+        {
+            Destroy(selectedCell.structure.gameObject);
+        }
+        if (heldStructure is Bulldoser)
+        {
+            selectedCell.structure = null;
+            return;
+        }
         GameObject obj = Instantiate(heldStructure.gameObject, selectedCell.transform);
-        selectedCell.structure = obj.GetComponent<Structure>();
+        Structure structure = obj.GetComponent<Structure>();
+        structure.cell = selectedCell;
+        selectedCell.structure = structure;
     }
 }

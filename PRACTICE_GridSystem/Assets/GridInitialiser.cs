@@ -97,12 +97,11 @@ public class GridInitialiser
         l.material = gridMat;
         return l;
     }
-    Material gridMat;
-    private object obj;
 
+    Material gridMat;
     public void AddLineRenderers(int[,] gridArray)
     {
-        gridMat = new Material(Shader.Find("Unlit/Color"));
+        gridMat = new(Shader.Find("Unlit/Color"));
         gridMat.color = new Color32(128, 255, 128, 255);
         int xLength = gridArray.GetLength(0);
         int yLength = gridArray.GetLength(1);
