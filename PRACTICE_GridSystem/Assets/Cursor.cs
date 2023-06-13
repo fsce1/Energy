@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Cursor : MonoBehaviour
 {
@@ -21,10 +22,11 @@ public class Cursor : MonoBehaviour
     {
         Ray ray;
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
+        isOnUI = EventSystem.current.IsPointerOverGameObject();
         if (Physics.Raycast(ray, out RaycastHit hit) && hit.collider.CompareTag("Interact"))
         {
-            isOnUI = hit.collider.CompareTag("UI"); // TODO
+            //isOnUI = hit.collider.CompareTag("UI"); // TODO
+
             Vector2Int pos = GridTools.Vector3ToVector2Int(hit.collider.gameObject.transform.position);
             selectedCell = GridTools.GetCell(pos);
             transform.position = new(pos.x, 0.1f, pos.y);
@@ -41,6 +43,7 @@ public class Cursor : MonoBehaviour
     }
     public void PlaceItem()
     {
+
         if (heldStructure == null) return;
         if (selectedCell.structure != null)
         {
@@ -53,7 +56,9 @@ public class Cursor : MonoBehaviour
         }
         GameObject obj = Instantiate(heldStructure.gameObject, selectedCell.transform);
         Structure structure = obj.GetComponent<Structure>();
+        if (structure.cost > GameManager.GM.money) return;
         structure.cell = selectedCell;
         selectedCell.structure = structure;
+        GameManager.GM.ChangeMoney(-structure.cost);
     }
 }

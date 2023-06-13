@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class WindTurbine : Structure
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Specific")]
+    public float outputPower = 200f;
 
-    // Update is called once per frame
+    public List<Wire> GetSurroundingWire()
+    {
+        var list = new List<Wire>();
+        foreach (Cell c in cell.adjacentCells)
+        {
+            Wire w = c.GetComponentInChildren<Wire>();
+            if (w != null) list.Add(w);
+        }
+        return list;
+    }
     void Update()
     {
-        
+        var wire = GetSurroundingWire();
+
+        foreach(Wire w in wire)
+        {
+            w.heldPower = outputPower / wire.Count;
+        }
+
     }
 }

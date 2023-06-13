@@ -25,6 +25,11 @@ public class Cell : MonoBehaviour
         Color32 end = new(255, 0, 0, 255);
         cube.material.color = Color.Lerp(start, end, info);
     }
+    public void HideInfoOverlay()
+    {
+        this.info.text = null;
+        cube.material.color = Color.white;
+    }
 
     public List<Vector2Int> SearchPos(){
         return new List<Vector2Int>
@@ -45,8 +50,7 @@ public class Cell : MonoBehaviour
         foreach (Vector2Int v in SearchPos())
         {
             Cell c = GridTools.GetCell(v);
-            if (c == null) continue;
-            adjacentCells.Add(c);
+            if (c != null) adjacentCells.Add(c);
         }
     }
 }

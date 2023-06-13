@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,22 +13,47 @@ public class GameManager : MonoBehaviour
         else GM = this;
     }
     #endregion
-    public enum OverlayType
-    {
-        Wind,
-        Daylight,
-        BuildCost
-    }
-    public enum StructureType
-    {
-        WindTurbine,
-        SolarPanel
-    }
-
-    [Header("Settings")]
-    public OverlayType curOverlay;
-    [Header("Variables")]
+    [Header("References")]
     public List<Cell> cellList = new();
+    public TMP_Text moneyText;
+    [Header("Player")]
+    public float money = 1000;
+    
+    public void ChangeMoney(float change)
+    {
+        money += change;
+        moneyText.text = '$' + money.ToString();
+    }
+    //public enum InfoType
+    //{
+    //    hidden,
+    //    wind,
+    //    cost,
+    //    daylight
+    //}
+    //public void ChangeInfo(InfoType i)
+    //{
+    //    switch (i)
+    //    {
+    //        case InfoType.hidden:
+    //            break;
+    //    }
+
+    //    foreach (Cell c in cellList)
+    //    {
+    //        c.ChangeInfoOverlay(c.wind);
+    //    }
+    //}
+
+
+
+    public void HideInfo()
+    {
+        foreach (Cell c in cellList)
+        {
+            c.HideInfoOverlay();
+        }
+    }
     public void ShowWind()
     {
         foreach (Cell c in cellList)
@@ -51,6 +77,11 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        GridInitialiser grid = new(15, 15, new GameObject().transform, new GameObject().transform);
+        GridInitialiser grid = new(15, 15, new GameObject().transform, new GameObject().transform, 0.25f);
+        moneyText.text = '$' + money.ToString();
     }
+    //public IEnumerable tick()
+    //{
+
+    //}
 }
