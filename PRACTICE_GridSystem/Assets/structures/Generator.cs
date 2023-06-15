@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Transformer : Structure
+public class Generator : Structure
 {
+    public float outputPower;
 
 }

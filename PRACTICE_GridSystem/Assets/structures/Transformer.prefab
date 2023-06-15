@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesh: {fileID: 8140102409914258953, guid: 35aa80abfc7d2674482f04275acd1d88, type: 3}
   cell: {fileID: 0}
+  cost: 0
 --- !u!1 &4416826534422455628
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,8 +109,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: 35aa80abfc7d2674482f04275acd1d88, type: 3}
-  - {fileID: 8948712408041580977, guid: 35aa80abfc7d2674482f04275acd1d88, type: 3}
+  - {fileID: 2100000, guid: 25d633db133b50244ac5199ab246ead9, type: 2}
+  - {fileID: 2100000, guid: 828d0c4906bb5bd4db0e38f29bb8805d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

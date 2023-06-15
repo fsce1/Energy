@@ -1,54 +1,9 @@
 fileFormatVersion: 2
-guid: 35aa80abfc7d2674482f04275acd1d88
+guid: 2a951c6efd566674aaa38c527aa3b8d5
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Body
-    second: {fileID: 2100000, guid: a5984d7ededc53a49be507506f854118, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 7e683993b5b71644eba82a97c506ece3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 25d633db133b50244ac5199ab246ead9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: 7a33102d8a7bb00438c42126e10cfc57, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: e1b4e35c7f906a1429efe8558bd249b4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.004
-    second: {fileID: 2100000, guid: 3a0bc890dc1dc344c8c7e6f25e9d5d6e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Panel
-    second: {fileID: 2100000, guid: fbf31dc66587fd046aa2fa660bf6e506, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Pole
-    second: {fileID: 2100000, guid: 828d0c4906bb5bd4db0e38f29bb8805d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: REDCargo
-    second: {fileID: 2100000, guid: be4ce446d1d97af4d8845c748f378cc9, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -42,11 +42,14 @@ public class Cursor : MonoBehaviour
         heldVisual.mesh = structure.mesh;
     }
     public void PlaceItem()
-    {
-
+    { 
         if (heldStructure == null) return;
+        if (heldStructure.cost >= GameManager.GM.money) return;
         if (selectedCell.structure != null)
         {
+            //refund half of structure cost
+            GameManager.GM.AddMoney(selectedCell.structure.cost / 2);
+            selectedCell.structure.StructureUpdate(heldStructure);
             Destroy(selectedCell.structure.gameObject);
         }
         if (heldStructure is Bulldoser)
@@ -54,11 +57,12 @@ public class Cursor : MonoBehaviour
             selectedCell.structure = null;
             return;
         }
+
         GameObject obj = Instantiate(heldStructure.gameObject, selectedCell.transform);
         Structure structure = obj.GetComponent<Structure>();
-        if (structure.cost > GameManager.GM.money) return;
+
         structure.cell = selectedCell;
         selectedCell.structure = structure;
-        GameManager.GM.ChangeMoney(-structure.cost);
+        GameManager.GM.AddMoney(-structure.cost);
     }
 }

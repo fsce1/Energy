@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 856607174255489641}
+  - component: {fileID: 3410051820545760327}
   - component: {fileID: 894526182181164429}
   - component: {fileID: 894526182181164428}
-  - component: {fileID: 4148997184274886460}
   m_Layer: 0
   m_Name: WindTurbine
   m_TagString: Untagged
@@ -36,6 +36,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3410051820545760327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47453835886389459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36d34f523bec6894e8487f6f050626b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mesh: {fileID: 7898142267379575592, guid: d6e853235c2e4db4190adc684fbbec6d, type: 3}
+  cell: {fileID: 0}
+  cost: 200
+  structures: []
+  wires: []
+  generators: []
+  transformers: []
+  outputPower: 0
 --- !u!111 &894526182181164429
 Animation:
   m_ObjectHideFlags: 0
@@ -72,22 +92,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &4148997184274886460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47453835886389459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7599e176dd6ebd418e84ed8d7f8c7b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mesh: {fileID: 7898142267379575592, guid: d6e853235c2e4db4190adc684fbbec6d, type: 3}
-  cell: {fileID: 0}
-  cost: 200
-  outputPower: 200
 --- !u!1 &96466814544890034
 GameObject:
   m_ObjectHideFlags: 0

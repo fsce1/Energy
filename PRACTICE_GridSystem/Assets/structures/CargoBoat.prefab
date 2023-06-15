@@ -42,11 +42,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3170480691688043436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d3d7803be98dea40a74f71338afb11c, type: 3}
+  m_Script: {fileID: 11500000, guid: 43367f9e3bf7da84ab0bf7da9c2f7d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mesh: {fileID: -6352872171317485050, guid: 35aa80abfc7d2674482f04275acd1d88, type: 3}
   cell: {fileID: 0}
+  cost: 100
+  structures: []
+  wires: []
+  generators: []
+  transformers: []
 --- !u!1 &7964180803906684886
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,11 +113,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6922793697723135513, guid: 35aa80abfc7d2674482f04275acd1d88, type: 3}
-  - {fileID: -3846018093981099296, guid: 35aa80abfc7d2674482f04275acd1d88, type: 3}
-  - {fileID: 2998713633238688532, guid: 35aa80abfc7d2674482f04275acd1d88, type: 3}
-  - {fileID: 4874126678125670354, guid: 35aa80abfc7d2674482f04275acd1d88, type: 3}
-  - {fileID: -6478536213147159724, guid: 35aa80abfc7d2674482f04275acd1d88, type: 3}
+  - {fileID: 2100000, guid: e1b4e35c7f906a1429efe8558bd249b4, type: 2}
+  - {fileID: 2100000, guid: be4ce446d1d97af4d8845c748f378cc9, type: 2}
+  - {fileID: 2100000, guid: 7a33102d8a7bb00438c42126e10cfc57, type: 2}
+  - {fileID: 2100000, guid: 7e683993b5b71644eba82a97c506ece3, type: 2}
+  - {fileID: 2100000, guid: 7e683993b5b71644eba82a97c506ece3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
 public class GameManager : MonoBehaviour
 {
     #region SINGLETON
@@ -19,7 +18,7 @@ public class GameManager : MonoBehaviour
     [Header("Player")]
     public float money = 1000;
     
-    public void ChangeMoney(float change)
+    public void AddMoney(float change)
     {
         money += change;
         moneyText.text = '$' + money.ToString();
@@ -73,6 +72,26 @@ public class GameManager : MonoBehaviour
         foreach (Cell c in cellList)
         {
             c.ChangeInfoOverlay(c.daylight);
+        }
+    }
+    public void ShowPower()
+    {
+        foreach(Cell c in cellList)
+        {
+            float info = 0;
+            if(c.structure != null){
+                
+                switch (c.structure){
+                    case Generator s:
+                        info = s.outputPower;
+                        break;
+                    case Wire s:
+                        info = s.heldPower;
+                        break;
+
+                }
+            }
+            c.ChangeInfoOverlay(info);
         }
     }
     private void Start()

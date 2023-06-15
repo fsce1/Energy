@@ -5,14 +5,4 @@ using UnityEngine;
 public class Wire : Structure
 {
     public float heldPower = 0;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
