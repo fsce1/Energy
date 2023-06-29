@@ -48,6 +48,12 @@ MonoBehaviour:
   mesh: {fileID: 6801496783033904975, guid: 35aa80abfc7d2674482f04275acd1d88, type: 3}
   cell: {fileID: 0}
   cost: 400
+  structures: []
+  wires: []
+  generators: []
+  transformers: []
+  outputPower: 20
+  multiplierType: 3
 --- !u!1 &3431664671727490979
 GameObject:
   m_ObjectHideFlags: 0

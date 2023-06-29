@@ -20,8 +20,11 @@ public class Structure : MonoBehaviour
     }
     public void Start()
     {
-        StructureUpdate(this);
     }
+    //public void Update()
+    //{
+    //    StructureUpdate(this);
+    //}
     public List<Vector2Int> SearchPos()
     {
         return new List<Vector2Int>
@@ -32,36 +35,38 @@ public class Structure : MonoBehaviour
             new(cell.pos.x - 1, cell.pos.y)
         };
     }
-    public void StructureUpdate(Structure origin) //TODO
+    public virtual void Tick()
     {
+
+    }
+    public void Update()
+    {
+        //hasUpdated = true;
+        //Debug.Log(origin.cell.name);
         structures.Clear();
         wires.Clear();
         generators.Clear();
         transformers.Clear();
-
         foreach (Vector2Int v in SearchPos())
         {
             Cell c = GridTools.GetCell(v);
-            Structure s = c.GetComponentInChildren<Structure>();
-            if (s != null) structures.Add(s);
+            if (c != null)
+            {
+                Structure s = c.GetComponentInChildren<Structure>();
+                if (s != null) structures.Add(s);
+            }
         }
-
         foreach (Structure s in structures)
         {
             //Update Adjacent structures
-            if (s != origin) s.StructureUpdate(this);
-
-
-            if (s is Wire w)
-            {
-                wires.Add(w);
-                Debug.Log("Adding to wires");
-            }
-
+            //if (!hasUpdated) 
+            //s.StructureUpdate(this);
+            //if (s != origin && !hasUpdated) s.StructureUpdate(this);
+            if (s is Wire w) wires.Add(w);
             else if (s is Generator g) generators.Add(g);
             else if (s is Transformer t) transformers.Add(t);
         }
+        //hasUpdated = false;
     }
-
 
 }

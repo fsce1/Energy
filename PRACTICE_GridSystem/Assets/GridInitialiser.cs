@@ -43,19 +43,19 @@ public class GridInitialiser
                 float x1 = (float)x / gridArray.GetLength(0);
                 float y1 = (float)y / gridArray.GetLength(1);
                 float n1 = Mathf.PerlinNoise(x1 * noiseScale + offset1, y1 * noiseScale + offset1);
-                c.buildCost = n1;
+                c.buildCost = n1 * 10;
 
                 int offset2 = Random.Range(0, 256);
                 float x2 = (float)x / gridArray.GetLength(0);
                 float y2 = (float)y / gridArray.GetLength(1);
                 float n2 = Mathf.PerlinNoise(x2 * noiseScale + offset2, y2 * noiseScale + offset2);
-                c.wind = n2;
+                c.wind = n2 * 10;
 
                 int offset3 = Random.Range(0, 256);
                 float x3 = (float)x / gridArray.GetLength(0);
                 float y3 = (float)y / gridArray.GetLength(1);
                 float n3 = Mathf.PerlinNoise(x3 * noiseScale + offset3, y3 * noiseScale + offset3);
-                c.daylight = n3;
+                c.daylight = n3 * 10;
 
                 AddCellVis(c);
 

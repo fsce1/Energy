@@ -6,4 +6,5 @@ public class Generator : Structure
 {
     public float outputPower;
 
+    public GameManager.InfoType multiplierType;
 }

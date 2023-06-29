@@ -43,5 +43,41 @@ public void ChangeInfoOverlay(float info)
 ![[2023-05-23 09-45-30.mkv]]
 
 For visual interest, I also 3D Modelled my own props.
-This was fairly simple, as I'm used to working in blender. I decided to use lo-poly as it creates quite a nice, simple vibe and was much less time-consuming than creating realistic assets.
+This was fairly simple, as I'm used to working in blender. I decided to use lo-poly as it creates quite a nice, simple vibe and was much less time-consuming than creating realistic assets. I even made an animation for the wind turbine, to make it spin around when placed.
 ![[Pasted image 20230523095643.png]]
+## Grid System
+I had to create a grid system to base my game off. This meant a Cell object in each grid space, which could store information such as the current structure on that cell, its place in relation to others, and the Wind Speed/Daylight Hours/Cost.
+Here is some code i wrote for the line renderer, the part that displays green lines on the edge of every grid cell.
+```    public void AddLineRenderers(int[,] gridArray)
+    {
+	    //set up grid materials + size
+        gridMat = new(Shader.Find("Unlit/Color"));
+        gridMat.color = new Color32(128, 255, 128, 255);
+        int xLength = gridArray.GetLength(0);
+        int yLength = gridArray.GetLength(1);
+        Vector3[] pos = new Vector3[2];
+	    //Start drawing lines horizontally
+        for (int x = 0; x < yLength; x++)
+        {
+            pos[0] = new(0, 0, x);
+            pos[1] = new(xLength, 0, x);
+            AddLineRenderer(pos);
+        }
+        //Start drawing lines vertically
+        for (int y = 0; y < xLength; y++)
+        {
+            pos[0] = new(y, 0, 0);
+            pos[1] = new(y, 0, yLength);
+            AddLineRenderer(pos);
+        }
+        //Complete outside Square
+        pos[0] = new(0, 0, yLength);
+        pos[1] = new(xLength, 0, yLength);
+        AddLineRenderer(pos);
+        pos[0] = new(xLength, 0, 0);
+        pos[1] = new(xLength, 0, yLength);
+        AddLineRenderer(pos);
+        return;
+    }
+```
+![[Pasted image 20230616101518.png]]

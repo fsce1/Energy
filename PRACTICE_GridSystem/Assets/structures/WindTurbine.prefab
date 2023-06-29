@@ -50,12 +50,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesh: {fileID: 7898142267379575592, guid: d6e853235c2e4db4190adc684fbbec6d, type: 3}
   cell: {fileID: 0}
-  cost: 200
+  cost: 250
   structures: []
   wires: []
   generators: []
   transformers: []
-  outputPower: 0
+  outputPower: 10
+  multiplierType: 1
 --- !u!111 &894526182181164429
 Animation:
   m_ObjectHideFlags: 0

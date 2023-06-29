@@ -16,15 +16,16 @@ public class Cell : MonoBehaviour
 
     public void ChangeInfoOverlay(float info)
     {
-        if (info == 0) this.info.text = null;
-        else this.info.text = info.ToString().Substring(0, 3);
+        if (info == 0) this.info.text = "";
+        else this.info.text = info.ToString();
+                //.Substring(0, 3);
 
         this.info.color = Color.white;
         this.info.fontStyle = FontStyle.Bold;
 
         Color32 start = new(0, 255, 0, 255);
         Color32 end = new(255, 0, 0, 255);
-        cube.material.color = Color.Lerp(start, end, info);
+        cube.material.color = Color.Lerp(start, end, info/10);
     }
     public void HideInfoOverlay()
     {

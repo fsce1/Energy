@@ -52,6 +52,8 @@ MonoBehaviour:
   wires: []
   generators: []
   transformers: []
+  goesToMoney: 1
+  inflow: 0
 --- !u!1 &7964180803906684886
 GameObject:
   m_ObjectHideFlags: 0

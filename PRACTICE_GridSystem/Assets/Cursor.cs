@@ -49,7 +49,7 @@ public class Cursor : MonoBehaviour
         {
             //refund half of structure cost
             GameManager.GM.AddMoney(selectedCell.structure.cost / 2);
-            selectedCell.structure.StructureUpdate(heldStructure);
+            //selectedCell.structure.StructureUpdate(heldStructure);
             Destroy(selectedCell.structure.gameObject);
         }
         if (heldStructure is Bulldoser)
@@ -63,6 +63,6 @@ public class Cursor : MonoBehaviour
 
         structure.cell = selectedCell;
         selectedCell.structure = structure;
-        GameManager.GM.AddMoney(-structure.cost);
+        GameManager.GM.AddMoney(-structure.cost * (selectedCell.buildCost/10));
     }
 }
